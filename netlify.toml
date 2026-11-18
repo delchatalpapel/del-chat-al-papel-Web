@@ -1,0 +1,9 @@
+# Configuración de Netlify: se lee sola al conectar el repositorio de GitHub.
+# Cada `git push` a la rama main vuelve a compilar y publicar la página.
+[build]
+  base    = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Del chat al papel: impresión en línea en Jilotepec Centro. Mándanos tu archivo por WhatsApp, lo imprimimos y te lo entregamos." />
+    <meta name="theme-color" content="#18223F" />
+    <meta property="og:title" content="Del chat al papel · Impresión en línea" />
+    <meta property="og:description" content="Mándanos tu archivo por WhatsApp. Nosotros lo imprimimos y te lo entregamos en Jilotepec Centro." />
+    <meta property="og:image" content="/media/flyer-proceso.jpg" />
+    <title>Del chat al papel · Impresión en línea</title>
+  </head>
+  <body>
+    <!--
+      Formulario oculto para Netlify Forms: Netlify lo lee al publicar y así reconoce
+      el formulario "contacto". Si agregas o cambias un campo en Contacto.jsx, cámbialo aquí también.
+    -->
+    <form name="contacto" data-netlify="true" netlify-honeypot="sitio" hidden>
+      <input type="hidden" name="subject" />
+      <input name="nombre" />
+      <input name="telefono" />
+      <input name="correo" type="email" />
+      <input name="servicio" />
+      <input name="cantidad" />
+      <input name="urgencia" />
+      <textarea name="mensaje"></textarea>
+      <input name="acepta" />
+      <input name="sitio" />
+    </form>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
